@@ -11,7 +11,7 @@ public class Player implements RPSPlayer{
 
     public String play()
     {
-        System.out.println("Choose (1) - Rock, (2) - Paper, and (3) - Scissors");
+        System.out.println("Choose (1) - Rock, (2) - Paper, and (3) - Scissors");        
         int choice = this.scanner.nextInt();
 
         return choices[choice - 1];

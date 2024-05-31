@@ -7,6 +7,7 @@ public class RockPaperScissors {
     
     private static boolean playAgain(Scanner scanner)
     {
+        System.out.println("");
         System.out.println("Try again? y(8) / n(9)");
         switch (scanner.nextInt()) {
             case 8:
@@ -42,6 +43,7 @@ public class RockPaperScissors {
         
                 System.out.printf("%s vs. %s", cpu, player1);
                 if (player1.equals(cpu)) {
+                    System.out.println("");
                     System.out.println("It's a tie!");
                 }
                 else if (("Rock".equals(player1) && "Scissors".equals(cpu)) || ("Scissors".equals(player1) && "Paper".equals(cpu)) || ("Paper".equals(player1) && "Rock".equals(cpu)))
