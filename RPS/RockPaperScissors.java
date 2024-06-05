@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class RockPaperScissors {
-    
+     
     private static boolean playAgain(Scanner scanner)
     {
         System.out.println("");
